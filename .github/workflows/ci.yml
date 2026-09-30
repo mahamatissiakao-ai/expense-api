@@ -24,3 +24,6 @@ jobs:
         env:
           PYTHONPATH: .
         run: python -m pytest
+
+      - name: Build Docker image
+        run: docker build -t expense-api .
