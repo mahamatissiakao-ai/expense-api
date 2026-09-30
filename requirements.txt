@@ -7,3 +7,4 @@ passlib[argon2]
 email-validator 
 psycopg[binary]
 pytest
+httpx2
